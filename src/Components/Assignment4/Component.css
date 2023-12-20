@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    background-color: white;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+h4{
+    margin-left: 20px;
+}
+
+h2{
+    margin-left: 20px;
+}
