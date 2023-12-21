@@ -4,7 +4,7 @@ import "./Component.css";
 const Component=(props,{style})=>{
     return(
         <>
-            <div className="box" style={{borderTopLeftRadius:"4px",borderBottomLeftRadius:"4px", boxShadow:"-2px 2px 10px black"}}>
+            <div className="box" style={{borderRadius:"4px", boxShadow:"-2px 2px 10px black"}}>
                 <h2>{props.heading}</h2>
                 <hr />
                 <h4>{props.data1}</h4>
