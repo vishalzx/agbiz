@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.comp{
+    background-color: whitesmoke;
+    width: 350px;
+    text-align: center;
+    height: 200px;    
+    margin-top: 20px;
+}
+.logo{
+    width: 20%;
+    height: 25%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: -20px;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comp h4{
+    margin: auto;
+    width: fit-content;
+}
+.comp p{
+    margin-top: 0px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    background-color: pink;
+    height: 100vh;
+    border: 2px solid black;
+}
+.mainDiv h1{
+    border: 2px solid red;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-left: 6px solid orange;
+    margin-top: 50px;
+}
+
+.mainDiv p{
+    width: 57%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.mainDiv .components{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.components>:nth-child(-n+4){
+    border-radius: 10px;
+    box-shadow: 8px 8px rgb(173, 116, 24);
+}
